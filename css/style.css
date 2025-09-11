@@ -3478,7 +3478,7 @@ footer ul.social_icons {
 
 .gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img.png);
+	background: url(../images/3.png);
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -4792,8 +4792,12 @@ footer ul.social_icons {
 	left: -24px;
 }
 
-.it_team_img img {
-	width: 100%;
+.team_img img {
+	border-radius:100%;
+	max-height:268px;
+	width:268px;
+	object-fit:cover;
+	object-position:0% 0%;
 }
 
 .product_detail_side.detail_style1 {
