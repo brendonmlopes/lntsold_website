@@ -788,6 +788,9 @@ hr.dottad_border {
 .icon img {
 	width: 100px;
 }
+.icon img:hover{
+  filter:drop-shadow( 0px 0px 5px red);
+}
 
 
 /*------------------------------------------------------------------
@@ -4813,6 +4816,10 @@ footer ul.social_icons {
     align-items: center;
     border: 2px solid #c00;    /* Optional: add a border around the circle */
     background: #f0f0f0;       /* Optional: background color while loading */
+}
+
+.img_profile:hover{
+  filter:drop-shadow( 0px 0px 20px white);
 }
 
 .img_profile img {
