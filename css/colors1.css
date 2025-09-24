@@ -31,9 +31,9 @@ a.btn.dark_gray_bt:focus,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover,
 .icon_feature {
-	background: #b03333;
-    background-size: 100% 100%;
-    border: none;
+  background: #b03333;
+  background-size: 100% 100%;
+  border: none;
 }
 
 .theme_bg {
@@ -49,19 +49,19 @@ footer p a:hover,footer p a:focus,
 footer ul.social_icons li a:hover,
 footer ul.social_icons li a:focus,
 .breadcrumb li a {
-    color: #b03333;
+  color: #b03333;
 }
 
 .btn.sqaure_bt {
-    border-radius: 0;
-    background: #b03333;
+  border-radius: 0;
+  background: #b03333;
 }
 
 .btn.sqaure_bt span {
-    font-size: 31px;
-    font-weight: 400;
-    position: absolute;
-    right: 16px;
+  font-size: 31px;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
 }
 
 footer h2::after,
@@ -71,7 +71,7 @@ footer h2::after,
 }
 
 .tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
-    background: #b03333 !important;
+  background: #b03333 !important;
 }
 
 a.btn.main_bt,
