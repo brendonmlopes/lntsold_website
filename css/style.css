@@ -4791,6 +4791,40 @@ footer ul.social_icons {
 	top: 40%;
 	left: -24px;
 }
+.circular--landscape { 
+  display: inline-block; 
+  position: relative; 
+  width: 260px; 
+  height: 260px; 
+  overflow: hidden; 
+  border-radius: 50%; 
+} 
+.circular--landscape img { 
+  width: auto; 
+  height: 100%; 
+  margin-left: -50px; 
+}
+.img_profile {
+    margin:auto;
+    width: 260px;              /* Set the size of the circle (adjust as needed) */
+    height: 260px;
+    border-radius: 50%;        /* Makes the container perfectly circular */
+    overflow: hidden;          /* Ensures the image is clipped to the circle */
+    display: flex;             /* Centers the image horizontally/vertically */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c00;    /* Optional: add a border around the circle */
+    background: #f0f0f0;       /* Optional: background color while loading */
+}
+
+.img_profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* Ensures the image fills the circle without distortion */
+    object-position: center;   /* Keeps the image centered */
+    display: block;
+}
+
 
 .team_img img {
 	border-radius:100%;
