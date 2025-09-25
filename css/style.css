@@ -3490,6 +3490,7 @@ footer ul.social_icons {
 .gross_layout::after {
 	position: absolute;
 	background: url(../images/3.png);
+  border-radius:1%;
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3501,7 +3502,8 @@ footer ul.social_icons {
 
 .gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	background: rgba(255, 39, 39, 0.6);
+  border-radius:1%;
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3526,7 +3528,7 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	background: rgba(255, 39, 39, 0.6);
 	width: 35%;
 	height: 100%;
 	left: 0;
