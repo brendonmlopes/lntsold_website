@@ -2317,6 +2317,13 @@ span.skill {
 		8. SLIDER
 	-------------------------------------------------------------------*/
 
+#slider{
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+#slider:hover{
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.9));
+}
+
 .only_icon_slider .carousel-indicators {
 	bottom: -53px;
 }
@@ -3489,7 +3496,7 @@ footer ul.social_icons {
 
 .gross_layout::after {
 	position: absolute;
-	background: url(../images/3.png);
+	background: url(../images/braco_robotico.jpg);
   border-radius:1%;
 	width: 35%;
 	height: 100%;
